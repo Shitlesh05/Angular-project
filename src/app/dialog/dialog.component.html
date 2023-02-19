@@ -1,0 +1,20 @@
+<h1 mat-dialog-title>Sign Up</h1>
+<div mat-dialog-content>
+    <form [formGroup]="userForm">
+        <mat-form-field appearance="fill">
+            <input formControlName="userName" matInput placeholder="Full Name">        
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <input formControlName="email" matInput placeholder="Email">        
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <input formControlName="phoneNumber" matInput placeholder="Phone Number">         
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <input formControlName="country" matInput placeholder="Country">        
+        </mat-form-field>
+    </form>   
+</div>
+<div>
+    <button mat-raised-button color="primary" (click)="addUser()">{{actionBtn}}</button>
+</div>
