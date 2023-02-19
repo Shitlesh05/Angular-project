@@ -1,4 +1,5 @@
-Initially install the fake json server by using command : npm install -g json server
+Initially install the fake json server by using command : npm install -g json server  ,
+
 then run the fake json server by using command : json-server --watch db.json
 
 After that run the app and data will be displayed on server as well as on table on UI. 
